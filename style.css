@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "idroid";
+    src: url(fontes/idroid.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: #22E37C; /* #3DDC84 */
+    margin: 0px;
+   
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+      background-image: linear-gradient(to bottom , #00ff73 , rgb(1, 173, 73) , rgb(0, 97, 40));
+      width: 100%;
+      box-shadow: 1px 3px 5px black;
+      
+      
+      /*0, 255, 106, 0.103 */
+     
+}
+.info{
+    text-align: center;
+    color: white;
+    padding: 45px;
+}
+nav{
+    display: inline;
+    font-weight: bold;
+   
+    
+}
+nav :hover{
+    color: #00ff73;
+    
+}
+a{
+text-decoration: none;
+color: white;
+margin-right: 10px;
+padding-left: 10px;
+}
+main{
+ margin-top: 5px;
+
+}
+main  p{
+text-align: justify;
+font-size: 1.2em;
+line-height: 1.1em;
+
+}
+.inicio{
+background-color: white;
+
+box-shadow: 1px 1px 15px black;
+padding: 30px;
+margin: auto;
+min-width: 300px;
+ max-width: 1000px;
+
+}
+
+.titulo {
+font-family: "idroid", 'Times New Roman', Times, serif;
+color: #00913c;
+
+}
+h2{
+font-family: "idroid", 'Times New Roman', Times, serif;
+color: #00913c;
+/* Causa o efeito mais transparente no h2 */
+background-image: linear-gradient(to right , #43ff8256, transparent );
+text-indent: 5px;
+
+}
+/* Gambiarra para centralizar um iframe */
+div.trailer{
+background-color: #00913c;
+margin: 0px -30px 20px -30px;
+padding: 30px;
+padding-bottom: 58.5%;
+position: relative;
+}
+div.trailer > iframe{
+position: absolute;
+top: 5% ;
+left: 5% ;
+width: 90%;
+height: 90%;
+}
+
+.final{
+padding: 20px;
+}
+.aprender{
+background-color: #0ceb70;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+padding: 1px;
+color: white;
+text-indent: 7px;
+}
+
+/* Dando cor mais transparente */
+.nomes{
+background-color: #03fa244d;
+padding: 5px;
+border-bottom-right-radius: 7px;
+border-bottom-left-radius: 7px
+}
+/* dando um tipo de "indent" */
+.txt{
+padding: 10px;
+}
+.lista{
+    columns: 2;
+ 
+}
+
+footer{
+    background-color: #00913c;
+    width: 100%;
+   
+    text-align: center;
+    color: rgba(255, 255, 255, 0.747);
+   
+  
+}
+/* Adicionais especificos */
+strong{
+    color: white;
+}
+.importante{
+color:#00913c;
+}
+.imagem{
+text-align: center;
+
+}
+.direita{
+padding: 17px;
+}
+.link {
+text-decoration: none;
+color: #00913c;
+}
+.creditos{
+ margin: 0px;
+ padding: 30px;
+}
